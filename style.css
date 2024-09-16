@@ -1,12 +1,47 @@
 .hero {
     height: 100vh;
-    background-image: url('your-hero-image.jpg');
-    background-size: cover;
-    background-position: center;
+    background: #333;
+    color: #fff;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
     .hero {
         height: 50vh;
     }
+
+    .carousel-item {
+        height: 50vh;
+    }
+
+    .img-fluid {
+        height: 200px;
+    }
+}
+#contact a {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #007bff; /* Change color on hover */
 }
