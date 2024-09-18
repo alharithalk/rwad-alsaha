@@ -6,11 +6,15 @@
 
 .carousel-item {
     height: 100vh;
+
 }
 
 .carousel-item img {
     object-fit: cover;
     height: 100vh;
+}
+.carousel-caption{
+    color: black;
 }
 
 .card:hover {
